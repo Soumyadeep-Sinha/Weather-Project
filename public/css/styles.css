@@ -1,0 +1,71 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.595),rgba(50, 50, 50, 0.616)),url("../jon-eckert-IoIbdFdGCnQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.search{
+    background-color: rgba(0, 0, 0, 0.497);
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+#cityInput{
+    border: 2px solid transparent;
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 100px;
+    background-color: rgba(62, 62, 62, 0.748);
+    color: white;
+}
+
+.subbtn{
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 100px;
+    color: black;
+    background-color: rgba(135, 207, 235, 0.77);
+    transition: 0.5s;
+}
+
+.subbtn:hover{
+    color: black;
+    background-color: rgba(55, 188, 241, 0.855);
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
